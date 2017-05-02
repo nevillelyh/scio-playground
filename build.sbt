@@ -11,6 +11,7 @@ libraryDependencies ++= Seq(
   "com.spotify" %% "scio-core" % scioVersion,
   "com.spotify" %% "scio-extra" % scioVersion,
   "com.spotify" %% "scio-test" % scioVersion % "test",
+  "org.http4s" %% "http4s-blaze-client" % "0.15.11",
   "org.slf4j" % "slf4j-simple" % "1.7.21"
 )
 
